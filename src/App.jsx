@@ -10,14 +10,14 @@ function App(){
 
   const {
     speedStats: {
-      topSpeed: hondaTopSpeed
+      HondatopSpeed: hondaTopSpeed
     },
     coloursByPopularity: [hondaTopColour]
   } = honda;
 
   const {
     speedStats: {
-      topSpeed: teslaTopSpeed
+      TeslatopSpeed: teslaTopSpeed
     },
     coloursByPopularity: [teslaTopColour]
   } = tesla;
@@ -31,8 +31,9 @@ function App(){
     <table>
 
      <tr>
-      <th>Brand</th>
-      <th>Top Speed</th>
+      <th className="heading">Brand</th>
+      <th className="heading">Top Speed</th>
+      <th className="heading">Top Color</th>
      </tr>
 
     <tr>
