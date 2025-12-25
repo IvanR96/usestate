@@ -1,4 +1,4 @@
 export const Animals = [
-  { name: "cat", sound: "meow" },
-  { name: "dog", sound: "woof" }
+  { name: "cats", sound: "meow" },
+  { name: "dogs", sound: "woof" }
 ];
